@@ -1,0 +1,67 @@
+.cult {
+	width: 100%;
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: #fff;
+	display: none;
+	overflow: hidden;
+	transition: 0.2s ease-out;
+}
+
+.card {
+	max-height: 400px;
+	width: 240px;
+	margin: 8px;
+	border: none;
+}
+
+.card img {
+	height: 250px;
+	margin-bottom: 16px;
+	border-radius: 16px;
+}
+
+.name-team {
+	font-family: lato;
+	font-size: 24px;
+	color: #151d32;
+}
+
+.role-team {
+	font-family: lato;
+	font-size: 18px;
+}
+
+.mail-team {
+	height: 40px !important;
+	width: 40px !important;
+	background-position: center;
+	background-size: cover;
+	transition: 0.1s;
+}
+
+.mail-team:hover {
+	transform: scale(1.1);
+}
+
+.part-above-footer {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.accordion-about-us {
+	background-color: #151d32 !important;
+	color: white !important;
+}
+
+@media (max-width: 500px) {
+	.work-with-us {
+		margin-left: 8px;
+	}
+	.part-above-footer {
+		display: flex;
+		justify-content: flex-start;
+	}
+}

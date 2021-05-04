@@ -1,0 +1,16 @@
+.sec-top {
+	background-color: #0cffa5;
+	height: 280px;
+	padding-top: 4rem;
+	margin-top: 3rem;
+}
+
+.sec-top h1 {
+	margin-top: 0;
+}
+
+@media (max-width: 567px) {
+	.sec-top {
+		height: 240px;
+	}
+}

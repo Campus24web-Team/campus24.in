@@ -1,0 +1,28 @@
+@media (max-width: 4000px) {
+	.imgs-why-us {
+		padding: 48px;
+		position: relative;
+		top: -8px;
+	}
+}
+
+@media (max-width: 900px) {
+	.imgs-why-us {
+		padding: 8px;
+		top: -4px;
+	}
+}
+
+@media (max-width: 720px) {
+	.imgs-why-us {
+		padding: 4px;
+		top: -2px;
+	}
+}
+
+@media (max-width: 600px) {
+	.imgs-why-us {
+		padding: 0;
+		top: 0;
+	}
+}
