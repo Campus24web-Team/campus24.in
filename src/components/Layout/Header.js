@@ -81,6 +81,19 @@ function Header() {
                             >
                                 Contact
                             </Link>
+                            <Link
+                                className="nav-item nav-link"
+                                to="/newsletter"
+                                style={{
+                                    color: "rgb(131, 204, 192)",
+                                    maxWidth: "120px",
+                                    fontFamily: '"lato"',
+                                    fontSize: "17.5px",
+                                    fontWeight: 400,
+                                }}
+                            >
+                                Newsletter
+                            </Link>
                         </div>
                     </div>
                     <a
