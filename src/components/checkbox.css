@@ -1,0 +1,27 @@
+.checkbox__text{
+    font-size: 1.5rem;
+    margin: 0;
+    color: rgb(88, 87, 87);
+    transition: .3s;
+}
+.checkbox{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+.checkbox:hover .checkbox__text{
+    color: rgb(24, 24, 24);
+    transform: scale(1.02);
+}
+.checkbox__inner{
+    width: 30px;
+    height: 17px;
+    background: rgb(190, 190, 190);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.checkbox__inner.checked{
+    background: #0cffa5;
+}
