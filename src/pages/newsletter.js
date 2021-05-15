@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 
 import Layout from '../components/layout'
-import SEO from "../components/seo"
+// import SEO from "../components/seo"
 import SectionTop from '../components/Layout/SectionTop'
 import '../components/static/style/Pages/newsletter.css'
 import Checkbox from '../components/Checkbox'
-
+import student from '../components/static/img/student-community.png'
+import line from '../components/static/img/line.png'
 
 function Newsletter() {
    const [name, setName] = useState('');
@@ -55,7 +56,27 @@ function Newsletter() {
          
           <button type="submit">Join the squad</button>
         </form>
-        </div>      
+        </div>     
+{/* how it works --code */}
+
+         <div>
+     <h1 className="heading">HOW IT WORKS!?</h1>
+     <br></br>
+
+      {/* student-community card  */}
+
+
+      <div className="card">
+        <img className="line" src={line} alt="line-img"/>
+        <p className="sub-title">
+          Join Student<br></br> Communities
+        </p>
+        <img className="student" src={student} alt="student-img"/>
+      </div>
+
+      
+      
+    </div> 
        </Layout>      
        </>
     )

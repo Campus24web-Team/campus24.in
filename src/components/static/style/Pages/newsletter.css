@@ -47,3 +47,55 @@ font-size: 2.2rem;
 letter-spacing: 1.2px;
 
 }
+
+
+/* how it works --styling */
+
+.line{
+    width: 20rem;
+    background-color: white;
+  }
+  .sub-title{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+  .student{
+    width: 20rem;
+  }
+  .card{
+      justify-content: center;
+      align-items: center;
+    margin-left: 12rem;
+display: inline-flex;
+  }
+  .heading{
+  margin-left: 6rem;
+  }
+  
+  /* mobile-view */
+  
+  @media only screen and (max-device-width: 480px) {
+  
+    .heading{
+      margin-left: 2rem;
+      font-size: 2rem;
+      }
+      .card{
+        justify-content: center;
+        align-items: center;
+      margin-left: 3rem;
+  display: inline-flex;
+      }
+      .line{
+        width: 15rem;
+        background-color: white;
+      }
+      .student{
+        width: 15rem;
+      }
+      .sub-title{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+      }
+  }
+  
