@@ -1,7 +1,17 @@
 import React, { useState } from 'react'
 
 import Layout from '../components/layout'
+<<<<<<< HEAD
 // import SEO from "../components/seo"
+=======
+import SEO from "../components/seo"
+import { Link } from 'gatsby'
+import FacebookIcon from '@material-ui/icons/Facebook'
+import YouTubeIcon from '@material-ui/icons/YouTube'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import TwitterIcon from '@material-ui/icons/Twitter'
+import InstagramIcon from '@material-ui/icons/Instagram'
+>>>>>>> c144ed7b06a8ed96fb36b94bfcefacc7ec77e2b6
 import SectionTop from '../components/Layout/SectionTop'
 import '../components/static/style/Pages/newsletter.css'
 import Checkbox from '../components/Checkbox'
@@ -26,8 +36,27 @@ function Newsletter() {
        <>
        <Layout>
            <SectionTop title="Campus Bytes" />
-        <div className="pt-3 pb-3">
-          
+        <div className="pb-3 newsletter__center">
+          <div className="newsletter__info">
+            <h5 className="newsletter__info__heading">
+              Join the largest Student Community 
+              and always remain updated! 
+            </h5>
+            <p className="newsletter__information pb-4">
+              If you are a student looking to always remain updated 
+              and enjoy your college life to the full potential this is 
+              for you!! Events, Competitions, Scholarships, 
+              Internships and News tailor-made for the largest 
+              student community!
+            </p>
+            <div className="newsletter__icons pb-3">
+               <Link to="/"><FacebookIcon className="socialmedia"/></Link>
+               <Link to="/"><YouTubeIcon className="socialmedia"/></Link>
+               <Link to="/"><LinkedInIcon className="socialmedia"/></Link>
+               <Link to="/"><TwitterIcon className="socialmedia"/></Link>
+               <Link to="/"><InstagramIcon className="socialmedia"/></Link>
+            </div>
+          </div>
         <form onSubmit={handleSubmit}>
           <input placeholder="First Name" className="info pb-3" value={name} onChange={(e) => setName(e.target.value)}></input>
           <input placeholder="Email" type="email" className="info pb-3" value={email} onChange={(e) => setEmail(e.target.value)}></input>

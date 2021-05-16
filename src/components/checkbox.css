@@ -25,3 +25,9 @@
 .checkbox__inner.checked{
     background: #0cffa5;
 }
+@media only screen and (max-width: 900px) {
+
+    .checkbox__text{
+        font-size: 1.25rem;
+    }
+}
