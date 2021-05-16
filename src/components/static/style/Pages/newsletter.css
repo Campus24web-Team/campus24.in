@@ -1,16 +1,19 @@
 input[type=checkbox] {
-display: none;
+    display: none;
 }
-input[type=checkbox]:checked{
+
+input[type=checkbox]:checked {
     background: red;
 }
 
-form{
+.newsletter__center form {
+    flex: .4;
     display: flex;
     flex-direction: column;
     padding: 5px;
 }
-form .info{
+
+.newsletter__center form .info {
     border-radius: 25px;
     outline: none;
     border: none;
@@ -21,11 +24,12 @@ form .info{
     letter-spacing: 1.5px;
     margin: 1em 0;
 }
-form .info:hover{
+
+.newsletter__center form .info:hover {
     box-shadow: 0 0 10px #0cffa5;
 }
 
-form button{
+.newsletter__center form button {
     border-radius: 25px;
     outline: none;
     border: none;
@@ -39,11 +43,88 @@ form button{
     font-weight: bold;
     color: rgb(235, 229, 229);
 }
-form button:hover{
+
+form button:hover {
     background: #0cff8e;
 }
-form .interests{
-font-size: 2.2rem;
-letter-spacing: 1.2px;
 
+form .interests {
+    font-size: 2.2rem;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color:#404140
+
+}
+
+
+.newsletter__center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.newsletter__info {
+    flex: .4;
+}
+
+.newsletter__info__heading {
+    font-size: 2.4rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 10%;
+    font-weight: bold;
+    color: rgb(67, 68, 68);
+}
+.newsletter__information{
+font-size: 1.3rem;
+letter-spacing: 1px;
+color: rgb(94, 97, 96);
+
+}
+.newsletter__icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.newsletter__icons a{
+    display: inline-block !important;
+    text-decoration: none;
+    transition: .3s;
+    color: grey;
+    width: 40px;
+    height: 40px;
+
+}
+.newsletter__icons a:hover{
+    color: #0cffa5;
+}
+.newsletter__icons a .socialmedia{
+    width: inherit;
+    height: inherit;
+}
+@media only screen and (max-width: 900px) {
+    .newsletter__center form .info{
+        font-size: 1.2rem;
+    }   
+    .newsletter__center form button{
+        font-size: 1.2rem;
+    }
+    form .interests{
+        font-size: 1.5rem;
+    }
+    .newsletter__info__heading {
+        font-size: 1.7rem;
+    }
+    .newsletter__information{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+
+    .newsletter__center{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5%;
+    }
 }
