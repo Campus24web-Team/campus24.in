@@ -5,7 +5,9 @@ import Layout from '../components/layout'
 import SectionTop from '../components/Layout/SectionTop'
 import '../components/static/style/Pages/newsletter.css'
 import Checkbox from '../components/Checkbox'
+import Social from '../components/static/img/social-circle.png'
 import student from '../components/static/img/student-community.png'
+import Newfriends from '../components/static/img/new-friends.png'
 import line from '../components/static/img/line.png'
 
 function Newsletter() {
@@ -59,24 +61,38 @@ function Newsletter() {
         </div>     
 {/* how it works --code */}
 
-         <div>
-     <h1 className="heading">HOW IT WORKS!?</h1>
-     <br></br>
+<div className='container-data'>
+      <h1 className="heading">HOW IT WORKS!?</h1>
+      <br></br>
 
       {/* student-community card  */}
 
-
-      <div className="card">
-        <img className="line" src={line} alt="line-img"/>
-        <p className="sub-title">
-          Join Student<br></br> Communities
+      <div className="Box-content">
+        <div className="card">
+          <img className="line" src={line} alt="line-img" />
+          <p className="sub-title">
+            Join Student<br></br> Communities
         </p>
-        <img className="student" src={student} alt="student-img"/>
+          <img className="student" src={student} alt="student-img" />
+        </div>
+        <div className="card">
+          <img className="line" src={line} alt="line-img" />
+          <p className="sub-title">
+            Meet and vibe with<br></br> new friends
+        </p>
+          <img className="student" src={Newfriends} alt="new-freinds" />
+        </div>
+        <div className="card">
+          <img className="line" src={line} alt="line-img" />
+          <p className="sub-title">
+            Interact and increase <br></br>your Social Circle
+        </p>
+          <img className="student" src={Social} alt="social-circle" />
+        </div>
       </div>
 
-      
-      
-    </div> 
+
+    </div>
        </Layout>      
        </>
     )

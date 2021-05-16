@@ -49,53 +49,133 @@ letter-spacing: 1.2px;
 }
 
 
-/* how it works --styling */
-
 .line{
-    width: 20rem;
-    background-color: white;
+  width: 90%;
+background-color: white;
+}
+.sub-title{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.student{
+  width: 90%;
+}
+.card{
+  margin-left: .4rem;
+  margin-right: .4rem;
+padding: 1%;
+width: 30%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.heading{
+margin-left: 2rem;
+font-size: 2rem;
+}
+.container-data{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+
+}
+.Box-content{
+  display: flex;
+  justify-content: space-between;
+
+}
+/* mobile-view */
+
+@media (max-width: 1000px)  {
+
+    .line{
+      width: 80%;
+      background-color: white;
+    }
+    .Box-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+    }
+    .sub-title{
+      font-size: 1.7rem;
+      
+    }
+    .card{
+      margin-left: 4rem;
+      margin-right: 4rem;
+    padding: 1%;
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    }
+    .student{
+      width: 80%;
+    }
+    .heading{
+      display:flex;
+      justify-content: center;
+
+    }
+    .container-data{
+     
+      width: 95%;
+      
+    
+    }
+}
+@media (max-width: 650px)  {
+  heading{
+    display:flex;
+    justify-content: center;
+
   }
   .sub-title{
-    font-size: 1.5rem;
-    margin-left: 2rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .student{
-    width: 20rem;
+  .line{
+    width: 90%;
+    background-color: white;
+  }
+  .Box-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
   }
   .card{
-      justify-content: center;
-      align-items: center;
-    margin-left: 12rem;
-display: inline-flex;
-  }
-  .heading{
-  margin-left: 6rem;
-  }
+    margin-left: 1rem;
+    margin-right: 1rem;
+  padding: 1%;
+  width: 90%;
   
-  /* mobile-view */
-  
-  @media only screen and (max-device-width: 480px) {
-  
-    .heading{
-      margin-left: 2rem;
-      font-size: 2rem;
-      }
-      .card{
-        justify-content: center;
-        align-items: center;
-      margin-left: 3rem;
-  display: inline-flex;
-      }
-      .line{
-        width: 15rem;
-        background-color: white;
-      }
-      .student{
-        width: 15rem;
-      }
-      .sub-title{
-        font-size: 1.5rem;
-        margin-left: 1rem;
-      }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
   }
+  .student{
+    width: 90%;
+  }
+  .container-data{
+     
+    width: 95%;
+    
+  
+  }
+}
   
