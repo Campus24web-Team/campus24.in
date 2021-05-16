@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 
 import Layout from '../components/layout'
-<<<<<<< HEAD
+
 // import SEO from "../components/seo"
-=======
 import SEO from "../components/seo"
 import { Link } from 'gatsby'
 import FacebookIcon from '@material-ui/icons/Facebook'
@@ -11,7 +10,7 @@ import YouTubeIcon from '@material-ui/icons/YouTube'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import InstagramIcon from '@material-ui/icons/Instagram'
->>>>>>> c144ed7b06a8ed96fb36b94bfcefacc7ec77e2b6
+
 import SectionTop from '../components/Layout/SectionTop'
 import '../components/static/style/Pages/newsletter.css'
 import Checkbox from '../components/Checkbox'

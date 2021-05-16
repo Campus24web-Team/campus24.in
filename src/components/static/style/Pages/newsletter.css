@@ -128,3 +128,133 @@ color: rgb(94, 97, 96);
         padding: 0 5%;
     }
 }
+.line{
+    width: 90%;
+    background-color: white;
+  }
+  .sub-title{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .student{
+    width: 90%;
+  }
+  .card{
+    margin-left: .4rem;
+    margin-right: .4rem;
+  padding: 1%;
+  width: 30%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .heading{
+  margin-left: 2rem;
+  font-size: 2rem;
+  }
+  .container-data{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  
+  }
+  .Box-content{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  /* mobile-view */
+  
+  @media (max-width: 1000px)  {
+  
+      .line{
+        width: 80%;
+        background-color: white;
+      }
+      .Box-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+      }
+      .sub-title{
+        font-size: 1.7rem;
+        
+      }
+      .card{
+        margin-left: 4rem;
+        margin-right: 4rem;
+      padding: 1%;
+      width: 80%;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3rem;
+      }
+      .student{
+        width: 80%;
+      }
+      .heading{
+        display:flex;
+        justify-content: center;
+  
+      }
+      .container-data{
+       
+        width: 95%;
+        
+      
+      }
+  }
+  @media (max-width: 650px)  {
+    .heading{
+      display:flex;
+      justify-content: center;
+  
+    }
+    .sub-title{
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .line{
+      width: 90%;
+      background-color: white;
+
+    }
+    .Box-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+    }
+    .card{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    padding: 1%;
+    width: 90%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    }
+    .student{
+      width: 90%;
+    }
+    .container-data{
+       
+      width: 95%;
+      
+    
+    }
+  }
