@@ -136,7 +136,7 @@ function Newsletter() {
                     </div>
                     <div className="download-now">
                         <div className="download-title">Download the Campus24 App</div><br></br>
-                        <div className="download-text">Join the largest student community in India IN</div><br></br>
+                        <div className="download-text">Join the largest student community in India </div><br></br>
                         <img src={googleplay2}></img><br></br>
                         <div className="download-footer">Rated 4.75/5 ⭐️ by 600+ students </div>
                     </div>

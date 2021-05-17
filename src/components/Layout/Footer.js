@@ -8,21 +8,43 @@ import Play from '../static/img/play.png'
 
 function Footer() {
     return (
+        
         <>
+        
+                <section className="pt-3 pb-3" style={{ backgroundColor: "#151d32" }}>
+                    <div className="container">
+                        <div className="row part-above-footer">
+                            <Link to="/careers" className="work-with-us">
+                                <button className="nav-app">Work with us</button>
+                            </Link>
+                            <p className="pt-2 text-above-footer" style={{
+                                color: "white",
+                                display: "inline-block",
+                                height: "100%",
+                                verticalAlign: "middle",
+                                marginBottom: "0"
+                            }}>
+                                Be a part of the revolution to change the campus
+                                experience forever. Grow and test your skills working at
+                                Campus24!
+                            </p>
+                        </div>
+                    </div>
+                </section>
             <footer className="pb-4 pt-2" style={{ minHeight: '19rem', maxWidth: '100vw', overflow: 'hidden' }}>
                 <div className="container">
                     <div className="row footer-2-part-flex">
-                        <div className="row col-4 footer-2-part mt-4">
+                        <div className="row footer-2-part mt-4">
                             <div className="col-6 footer-list-container">
                                 <div className="container">
                                     <Link to="/">
-                                        <div>
+                                        <div class="footer-image">
                                             <img src={FooterPic} className="footer-campus-logo" alt="Campus 24" />
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-                            <div className="col-6 footer-list-container">
+                            <div className="col-6 product-container">
                                 <h3 style={{ color: '#0CFFA5', fontFamily: '"lato"', fontSize: '20px', fontWeight: 900 }}>PRODUCTS</h3>
                                 <ul style={{ listStyle: 'none', padding: 0 }}>
                                     <li style={{ display: 'block' }}><Link to="/why-campus24">Why Campus24?</Link></li>
@@ -31,7 +53,7 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="row col-4 footer-2-part mt-4">
+                        <div className="row footer-2-part mt-4">
                             <div className="col-6 footer-list-container" style={{ paddingLeft: '40px' }}>
                                 <h3 style={{ color: '#0CFFA5', fontFamily: '"lato"', fontSize: '20px', fontWeight: 900 }}>RESOURCES</h3>
                                 <ul style={{ listStyle: 'none', padding: 0 }}>
@@ -49,7 +71,7 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="row col-4 footer-2-part mt-4">
+                        <div className="row footer-2-part mt-4">
                             <div className="col-6 footer-list-container">
                                 <h3 style={{ color: '#0CFFA5', fontFamily: '"lato"', fontSize: '20px', fontWeight: 900 }}>LEGAL</h3>
                                 <ul style={{ listStyle: 'none', padding: 0 }}>
