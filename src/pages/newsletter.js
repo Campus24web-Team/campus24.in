@@ -19,6 +19,12 @@ import student from '../components/static/img/student-community.png'
 import Newfriends from '../components/static/img/new-friends.png'
 import line from '../components/static/img/line.png'
 
+import back from "../components/static/img/Path_15436.jpg"
+
+import group2 from "../components/static/img/Group_11187.png"
+
+import googleplay2 from "../components/static/img/Image_10.png"
+
 function Newsletter() {
    const [name, setName] = useState('');
    const [email, setEmail] = useState('')
@@ -121,6 +127,20 @@ function Newsletter() {
 
 
     </div>
+
+
+{/* Footer  */}
+    <section className="download-section" style={{ backgroundImage :`url(${back})` }}>
+                    <div className="screenshot">
+                        <img src={group2}></img>
+                    </div>
+                    <div className="download-now">
+                        <div className="download-title">Download the Campus24 App</div><br></br>
+                        <div className="download-text">Join the largest student community in India IN</div><br></br>
+                        <img src={googleplay2}></img><br></br>
+                        <div className="download-footer">Rated 4.75/5 ⭐️ by 600+ students </div>
+                    </div>
+                </section>
        </Layout>      
        </>
     )
