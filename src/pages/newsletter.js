@@ -55,11 +55,11 @@ function Newsletter() {
               student community!
             </p>
             <div className="newsletter__icons pb-3">
-               <Link to="/"><FacebookIcon className="socialmedia"/></Link>
-               <Link to="/"><YouTubeIcon className="socialmedia"/></Link>
-               <Link to="/"><LinkedInIcon className="socialmedia"/></Link>
-               <Link to="/"><TwitterIcon className="socialmedia"/></Link>
-               <Link to="/"><InstagramIcon className="socialmedia"/></Link>
+               <Link to="https://www.facebook.com/campus24app"><FacebookIcon className="socialmedia"/></Link>
+               <Link to="https://www.linkedin.com/company/campus24/"><YouTubeIcon className="socialmedia"/></Link>
+               <Link to="https://www.linkedin.com/company/campus24"><LinkedInIcon className="socialmedia"/></Link>
+               <Link to="https://twitter.com/C24_app"><TwitterIcon className="socialmedia"/></Link>
+               <Link to="https://www.instagram.com/campus24app/"><InstagramIcon className="socialmedia"/></Link>
             </div>
           </div>
         <form onSubmit={handleSubmit}>
