@@ -35,27 +35,24 @@ function whyCampus24() {
                         Why Us?
                 </div>
                     <p className="mb-5 pb-2">
-                        Ever felt lost in the sea of content at Facebook/Instagram or
-                        any other social media? With thousands of 'friends' whom you
-                        never feel connected to, accepting requests from strangers,
-                        tired of scrolling through their posts and pictures who do not
-                        have any real connection to you? While you miss out on
-                        information and posts which are actually relevant to you.
+                    Ever felt lost in the sea of content at Facebook/Instagram or any other social media? 
+                    With thousands of 'friends' whom you never feel connected to, accepting requests from strangers, 
+                    tired of scrolling through their posts and pictures who do not have any real connection to you? While 
+                    you miss out on information and posts which are actually relevant to you!
                     <br />
                         <br />
-Wouldn’t it be better if you could ONLY glance at posts of your
-friends in your college? Like…… Who bagged that job? What's the
-latest news from the campus clubs? etc.
+                        Wouldn’t it be better if you could ONLY glance at posts of communities of your interests? Be it 
+                        any kind of quirk or interest, wouldn’t it be great to have communities of EVERY kind in a single platform?
+
                     <br />
                         <br />
-Here comes Campus24 to your rescue <span role="img" aria-label="tick">✅</span>
-                        <strong> We unite your Family - Your Campus</strong>
+                    Here comes Campus24 to your rescue <span role="img" aria-label="tick">✅</span>
+                        <strong>We connect like-minded individuals!</strong>
                         <br />
                         <br />
-We have the advantages of both a social and a utility app (all
-in one). No other social app, NO other, combines all the fun and
-productive aspects of your college life as seamlessly and as
-effectively as we do! Just give it a try and you will see <span role="img" aria-label="happy">😃</span>
+                        We have the advantages of both a social and a utility app (all in one). No other social app, NO other, combines all the fun and 
+                        productive aspects of your college life as seamlessly and as
+                        effectively as we do! Just give it a try and you will see. <span role="img" aria-label="happy">😃</span>
                     </p>
                     <div style={{
                         backgroundColor: "#151d32",

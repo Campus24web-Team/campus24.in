@@ -95,34 +95,24 @@ function About() {
                         <p>
                             Our mission is to create the Virtual Campus which would
                             enable our users to enjoy a perfect campus life by striking
-                            a balance between fun and productivity.
+                            a balance between fun, productivity and in turn help them rediscover their passions.
                         <br />
-                        Our platform will not only unify the various departments in
-                        a campus, but entire student communities in a region. We
-                        will bring a sense of belongingness among students of all
-                        campuses.
+                        Our platform will not only unify various students of similar interests, but entire India’s student community. 
+                        We will bring a sense of belongingness among students of all campuses.
                         <br />
-                        Campus24 will revolutionize the interconnections between
-                        college departments fueling collaboration, entrepreneurial
-                        spirit, talent development, learning experience and team
-                        spirit.
+                        Campus24 will revolutionize the interconnections between colleges fueling collaboration, entrepreneurial spirit, 
+                        talent development, learning experience and team spirit.
                         <br />
-                        It was surveyed that about 60% professionals get a job
-                        through recommendations via seniors and batchmates. Our
-                        unique idea of bringing alumni and batches together would
-                        exponentially increase one’s network and help them remain
-                        connected to their alma mater forever.
+                        It was surveyed that about 60% students are bored of the generic social media which caters to all age groups. 
+                        The need of the hour is a platform tailor made for the students of our country, their interests, their mentality and their talents. Our unique idea of bringing batches and colleges together would exponentially 
+                        increase one’s network and help them take on life with a headstart.
                         </p>
                         <h2 className="mt-5" style={{ color: "#0cffa5" }}>VISION</h2>
                         <p>
-                            Our Vision is to create a self-sustaining unicorn within the
-                            next 10 years and be the pioneer in the market of community
-                            focused social utility platforms.
-                        <br />
-                        Not only college/uni, our aim is to unite all the schools as
-                        well as college/uni campuses in India within these 10 years
-                        and become the all in one platform every student in India
-                        will need and appreciate.
+                        Our Vision is to create India's largest community based social platform for students, with thousand 
+                        of student run communities from higher education, sports, festivities to entertainment, where 
+                        they can explore new interests, meet new friends and be their authentic self.
+                        
                         </p>
                     </div>
                 </section>
@@ -139,77 +129,50 @@ function About() {
                     </div>
                     <div className="container text" style={{ position: "relative", top: "0" }}>
                         <p>
-                            Campus24 is an application designed to simplify the
-                            unorganized life of a college student by providing a
-                            platform
+                        Campus24 is an application designed to unite India’s youth by providing a platform -
                         </p>
                         <ul>
                             <li>
-                                to have fun in a private social networking domain ONLY
-                                for the students of that campus (no outsiders!).
+                            to have FUN in a social networking domain EXCLUSIVELY for college students (no outsiders!).
                             </li>
                             <li>
-                                to easily store NOTES / QUESTIONS BANKS / PLACEMENT
-                                REPORTS etc. for each and every department of the
-                                campus.
+                            to DISCOVER one’s interests and talents by choosing to join a wide variety of communities. Be it gaming, sports, exam prep, coding, entrepreneurship, etc., find your own community at Campus24!
                             </li>
                             <li>
-                                to get important NOTICES with their respective
-                                deadlines.
+                            to COMMUNICATE with anyone and everyone at Campus24 to share ideas and make new friends!
                             </li>
                             <li>
-                                to remain updated with CLUB EVENTS / FESTS / WORKSHOPS
-                                happening all over the campus.
+                            to CREATE new Camps or interest groups, promote and make it one of largest India’s youth community!
                             </li>
                             <li>
-                                to COMMUNICATE with anyone and everyone from their
-                                college, not only currently studying students but also
-                                pass-outs (Alumni - networking).
+                            To FIND other like-minded people across the colleges in India through the community groups.
                             </li>
                             <li>
-                                to discover oneself and other like-minded people in
-                                one's campus through the COMMUNITY groups. Be it gaming,
-                                sports, exam prep, coding, entrepreneurship, etc., find
-                                your own community at Campus24!
+                            To REWARD the student content creators of India by being awarded from the users for their contribution!
+                            </li>
+                            <li>
+                            To BECOME the trendiest and biggest youth Influencer of India!
                             </li>
                         </ul>
                         <p>
-                            Campus24 supports networking and communication, thus the
-                            'GLOBAL FEED' is provided where all colleges are present to
-                            increase networking, share tips, advice, experiences and
-                            update students about competitions, internship
-                            opportunities, placement news, online courses and a lot
-                            more!! Make friends across different colleges, expand your
-                            reach and collaborate!
+                        Campus24 plans to unite the multitude of colleges/universities of India by providing a common 
+                        platform to create, join and interact with any type of student community. Easy to form a new community 
+                        with loads of options to tailor-make and design your community, a region to find new communities and discover 
+                        your interests in college life, and a common space to interact with any member of the communities makes Campus24 
+                        one of the first dedicated platform exclusively for the college students of India.
                         </p>
                         <p>
-                            Be it anonymous confessions, talent showcasing pictures or
-                            videos, study discussions, opinions and views or simply
-                            memes about your campus and friends; express yourself freely
-                            and have fun in this EXCLUSIVE College social platform!
-                            Participate in weekly contests and get a chance to be
-                            featured as the Campus Star! <span role="img" aria-label="star">🌟</span>.
+                        Be it anonymous confessions, talent showcasing pictures or videos, study discussions, opinions and views or 
+                        simply memes about your campus and friends – join or create communities at Campus24 for each of your needs; 
+                        express yourself freely and have fun in this EXCLUSIVE College social platform! Also get the opportunity to award 
+                        and in-turn get rewarded for exciting/helpful/trendy content! <span role="img" aria-label="star">🌟</span>.
                         </p>
                         <p>
-                            It is a perfect blend of utility and social application.
-                            Never again miss any deadlines, No more begging to friends
-                            and seniors for laboratory reports / class notes / previous
-                            years questions. Once uploaded, each department gets its own
-                            private access to Notes of each and every semester for the
-                            entire course!!
-                        </p>
-                        <p>
-                            Campus24 allows you to remain connected to your alma mater
-                            even after passing out so that you do not miss your campus
-                            events and popular news, also helping the juniors to easily
-                            access their alumni database.
-                        </p>
-                        <p>
-                            A single application to remain Updated, Organized and
-                            Connected to your Campus!
-                             <br />
+                        A single application for India’s vast youth with a space for each of their needs and interests!
+                        <br />
                             And of course to have fun ;)
                         </p>
+                        
                     </div>
                 </section>
                 <div className="container mt-5">
