@@ -10,7 +10,7 @@ import Ill2 from '../components/static/img/ill-2.jpg'
 import Ill3 from '../components/static/img/ill-3.png'
 import Ill4 from '../components/static/img/ill-4.png'
 import Phone from '../components/static/img/ph_blue.png'
-import PhoneScreen from '../components/static/img/screenshots.png'
+import PhoneScreen from '../components/static/img/All_4.png'
 import ButtonHome from '../components/static/img/Button_Home.png'
 import ButtonEvents from '../components/static/img/Button_Events.png'
 import ButtonNotes from '../components/static/img/Button_Notes.png'
@@ -180,9 +180,9 @@ form lifelong bonds.</p>
                 </div>
                 <div className="modal-body">
                   <div className="img" style={{ backgroundImage: `url(${Ill2})` }}></div>
-                  <p style={{ paddingTop: "12px" }}>Aah! College days are the best, aren't they? Unforgettable memories, lifelong friends and campus pathways etched on your soul. Maintain this connection with college even after passing out through this virtual campus called Campus24.
-                  Life's tough but it becomes easier if you learn from seniors who have walked the same path as you will. Amplify the department's alumni reach to strengthen placements, opportunities and to share experience. News, events, happenings
-of your alma mater is now just an app away.</p>
+                  <p style={{ paddingTop: "12px" }}>Aah! College days are the best, aren't they? Unforgettable memories, lifelong friends and campus pathways etched on your soul. It is the best time to discover yourself, 
+                  receive and live through all kinds of experiences plus finding your passion! Campus24 with its unique Camps provides you the perfect platform to gauge into the talent and passions of India’s Youth. Share 
+                  those weird quirks, combine them with others, start something new and you will see yourself completely changed and ready to take on life!</p>
                 </div>
               </div>
             </div>

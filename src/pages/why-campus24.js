@@ -5,12 +5,19 @@ import SEO from "../components/seo"
 import Layout from '../components/layout'
 import SectionTop from '../components/Layout/SectionTop'
 
-import C24_Home_and_Global from '../components/static/img/C24_Home&Global.svg'
-import C24_Campus_Star from '../components/static/img/C24_Campus_Star.svg'
-import C24_Communities from '../components/static/img/C24_Communities.svg'
-import C24_Invisibility_Cloak from '../components/static/img/C24_Invisibility_Cloak.svg'
+import C24_ANONYMUS_POSTING from '../components/static/img/Anonymous Posting.png'
+
+
 import C24_utility from '../components/static/img/utility.svg'
-import C24_virtual_campus from '../components/static/img/virtual_campus.svg'
+
+import C24_COLLEGES_UNITED from '../components/static/img/Colleges-United.png'
+import C24_CHIT_CHAT from '../components/static/img/Chit - Chat.png';
+import C24_CAMPS from '../components/static/img/College-camps.png';
+import C24_ENGAGING_COMMUNITIES from '../components/static/img/Engaging Communities.png'
+import C24_OWN_IT from '../components/static/img/Own-It.png'
+import C24_STAR  from '../components/static/img/C24-Awards.png'
+import C24_VIRTUAL_CAMPUS  from '../components/static/img/The Virtual Campus.png'
+import '../components/static/style/Pages/why-us.css'
 
 import '../components/static/style/Pages/why-us.css'
 
@@ -70,7 +77,7 @@ function whyCampus24() {
                                 marginTop: "auto",
                                 marginBottom: "auto"
                             }}>
-                                <img src={C24_Home_and_Global} style={{ width: "100%" }} alt="C24_Home_and_Global" />
+                                <img src={C24_COLLEGES_UNITED} style={{ width: "100%" }} alt="C24_Home_and_Global" />
                             </div>
                             <div className="col-10" style={{
                                 height: "inherit",
@@ -78,13 +85,30 @@ function whyCampus24() {
                                 flexDirection: "column",
                                 justifyContent: "center"
                             }}>
-                                <strong>#C24_Home&amp;Global</strong>
+                                <strong>Colleges-United</strong>
                                 <br />
                                 <p>
-                                    Our ‘Home’ is a platform with all of your college
-                                    mates already present and ‘Global’ connects all C24
-                                    campuses socially. So, discuss, interact, share,
-                                    comment and get to know what’s trending!
+                                    Be a part of C24 Family! - the Largest College student network of India
+                                </p>
+                            </div>
+                             <div className="col-2 imgs-why-us" style={{
+                                verticalAlign: "middle",
+                                display: "inline-block",
+                                marginTop: "auto",
+                                marginBottom: "auto"
+                            }}>
+                                <img src={C24_CHIT_CHAT} style={{ width: "100%" }} alt="C24_Home_and_Global" />
+                            </div>
+                            <div className="col-10" style={{
+                                height: "inherit",
+                                display: "flex",
+                                flexDirection: "column",
+                                justifyContent: "center"
+                            }}>
+                                <strong>Chit-Chat</strong>
+                                <br />
+                                <p>
+                                    Chat with anyone from any college across India!
                                 </p>
                             </div>
                         </div>
@@ -96,7 +120,7 @@ function whyCampus24() {
                                 marginTop: "auto",
                                 marginBottom: "auto"
                             }}>
-                                <img src={C24_Communities} style={{ width: "100%" }} alt="C24_Communities" />
+                                <img src={C24_ANONYMUS_POSTING} style={{ width: "100%" }} alt="C24_Invisibility_Cloak" />
                             </div>
                             <div className="col-10" style={{
                                 height: "inherit",
@@ -104,12 +128,34 @@ function whyCampus24() {
                                 flexDirection: "column",
                                 justifyContent: "center"
                             }}>
-                                <strong>#C24_Communities</strong>
+                                <strong>Anonymous Posting</strong>
                                 <br />
                                 <p>
-                                    Like-minded peeps Assemble!! From PUBG groups to
-                                    GATE coaching, find people with whom you can connect
-                                    naturally to have fun and/or amplify your skills!
+                                   Express freely! <br />
+Protect your identity
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-2 imgs-why-us" style={{
+                                verticalAlign: "middle",
+                                display: "inline-block",
+                                marginTop: "auto",
+                                marginBottom: "auto"
+                            }}>
+                                <img src={C24_CAMPS} style={{ width: "100%" }} alt="C24_Communities" />
+                            </div>
+                            <div className="col-10" style={{
+                                height: "inherit",
+                                display: "flex",
+                                flexDirection: "column",
+                                justifyContent: "center"
+                            }}>
+                                <strong>C24-Camps!</strong>
+                                <br />
+                                <p>
+                                   Student run communities for students! <br />
+Connect and Interact with like-minded peeps
                                 </p>
                             </div>
                         </div>
@@ -121,7 +167,7 @@ function whyCampus24() {
                                 marginTop: "auto",
                                 marginBottom: "auto"
                             }}>
-                                <img src={C24_Campus_Star} style={{ width: "100%" }} alt="C24_Campus_Star" />
+                                <img src={C24_ENGAGING_COMMUNITIES} style={{ width: "100%" }} alt="C24_Communities" />
                             </div>
                             <div className="col-10" style={{
                                 height: "inherit",
@@ -129,13 +175,11 @@ function whyCampus24() {
                                 flexDirection: "column",
                                 justifyContent: "center"
                             }}>
-                                <strong>#C24_Campus_Star</strong>
+                                <strong>Engaging Communities</strong>
                                 <br />
                                 <p>
-                                    College is the time to discover yourself. Showcase
-                                    your talents, your achievements, team up with
-                                    friends and let your skills sparkle through our
-                                    weekly contests! Let the entire campus know you!
+                                   Be it Interest groups or Internships & News <br />
+Find Camps for Anything & Everything!
                                 </p>
                             </div>
                         </div>
@@ -147,7 +191,7 @@ function whyCampus24() {
                                 marginTop: "auto",
                                 marginBottom: "auto"
                             }}>
-                                <img src={C24_Invisibility_Cloak} style={{ width: "100%" }} alt="C24_Invisibility_Cloak" />
+                                <img src={C24_OWN_IT} style={{ width: "100%" }} alt="C24_utility" />
                             </div>
                             <div className="col-10" style={{
                                 height: "inherit",
@@ -155,13 +199,12 @@ function whyCampus24() {
                                 flexDirection: "column",
                                 justifyContent: "center"
                             }}>
-                                <strong>#C24_Invisibility_Cloak</strong>
+                                <strong>Own It!!</strong>
                                 <br />
                                 <p>
-                                    To cater to the need of expressing your confessions
-                                    anonymously <span role="img" aria-label="wink">😉</span>. We provide an inbuilt tool like no
-                                    other social media! You may not want to give out
-                                    your identity sometimes and we respect that :D
+                                   Create your own Camp <br />
+Fully customisable <br />
+Build your own audience base!
                                 </p>
                             </div>
                         </div>
@@ -173,7 +216,7 @@ function whyCampus24() {
                                 marginTop: "auto",
                                 marginBottom: "auto"
                             }}>
-                                <img src={C24_utility} style={{ width: "100%" }} alt="C24_utility" />
+                                <img src={C24_STAR} style={{ width: "100%" }} alt="C24_Campus_Star" />
                             </div>
                             <div className="col-10" style={{
                                 height: "inherit",
@@ -181,17 +224,17 @@ function whyCampus24() {
                                 flexDirection: "column",
                                 justifyContent: "center"
                             }}>
-                                <strong>#C24_Utility_Power</strong>
+                                <strong>C24 Awards</strong>
                                 <br />
                                 <p>
-                                    Notes, Notices, Event schedules, Clubs Workshops —
-                                    at your fingertips. If you haven’t yet downloaded
-                                    the app, you are missing out! Cuz C24 campuses will
-                                    always be a step ahead.
+                                    Be an influencer among the youth!! <br />
+Post and get rewarded for contributing
                                 </p>
                             </div>
                         </div>
+                    
                         <br />
+                        
                         <div className="row">
                             <div className="col-2 imgs-why-us" style={{
                                 verticalAlign: "middle",
@@ -199,7 +242,7 @@ function whyCampus24() {
                                 marginTop: "auto",
                                 marginBottom: "auto"
                             }}>
-                                <img src={C24_virtual_campus} style={{ width: "100%" }} alt="C24_virtual_campus" />
+                                <img src={C24_VIRTUAL_CAMPUS} style={{ width: "100%" }} alt="C24_virtual_campus" />
                             </div>
                             <div className="col-10" style={{
                                 height: "inherit",
@@ -207,21 +250,24 @@ function whyCampus24() {
                                 flexDirection: "column",
                                 justifyContent: "center"
                             }}>
-                                <strong>#C24_Virtual_Campus</strong>
+                                <strong>The Virtual Campus</strong>
                                 <br />
                                 <p>
-                                    Get to experience a virtual campus life like never
-                                    before! C24 will keep you entertained and amplify
-                                    your college days. Enjoy Contests, Facts, Memes,
-                                    Advice, Tips etc. while managing your studies!
+                                    One app to keep you updated, connected and united with India's college youth!
                                     <br /><br />
                                     <strong> ONLY POSSIBLE ON CAMPUS24 <span role="img" aria-label="tick">✅</span></strong>
                                 </p>
+                                <strong>#C24_COLLEGES</strong>
+                                    <br />
+
+                                
                             </div>
                         </div>
                         <br />
                     </div>
                 </div>
+
+
 
 
                 <section style={{
