@@ -5,6 +5,9 @@ input[type=checkbox] {
 input[type=checkbox]:checked {
     background: red;
 }
+.error{
+  color: red;
+}
 
 .newsletter__center form {
     flex: .4;

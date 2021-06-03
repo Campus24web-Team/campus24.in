@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-
+import { useForm } from "react-hook-form";
 import Layout from '../components/layout'
-
+import emailjs from "emailjs-com";
 // import SEO from "../components/seo"
 import SEO from "../components/seo"
 import { Link } from 'gatsby'
@@ -25,18 +25,61 @@ import group2 from "../components/static/img/Group_11187.png"
 
 import googleplay2 from "../components/static/img/Image_10.png"
 
+
+
 function Newsletter() {
-   const [name, setName] = useState('');
-   const [email, setEmail] = useState('')
-   const [check1, setCheck1] = useState(false)
-   const [check2, setCheck2] = useState(false)
-   const [check3, setCheck3] = useState(false)
+ 
+  //  const [name, setName] = useState('');
+  //  const [email, setEmail] = useState('')
+    const [check1, setCheck1] = useState(false)
+    const [check2, setCheck2] = useState(false)
+  const [check3, setCheck3] = useState(false)
    const [check4, setCheck4] = useState(false)
+   const { register, handleSubmit, errors } = useForm();
+  
+  const sendEmail = (data, r) => {
+    alert(`Thank you ${data.name} , You had successfully subscribed for Campu24 Newsletter `);
+    const templateId = 'template_vfjfd5r';
+    const serviceID = 'service_44a3o3d';
+    sendFeedback(serviceID, templateId, { from_name: data.name, user_email:data.email,user_check:data.check, reply_to: data.email })
+    r.target.reset();
+}
+
+const sendFeedback = (serviceID, templateId, variables) => {
+  window.emailjs.send(
+      serviceID, templateId,
+      variables
+  ).then(res => {
+      console.log('Email successfully sent!')
+     
+  })
+      .catch(err => console.error('There has been an error.  Here some thoughts on the error that occured:', err))
+}
+
+
+   function validateMedium() {
+    var mediumCheckboxes = document.getElementsByName("check");
+    var okay = false;
+    
+    for (var i = 0, len = mediumCheckboxes.length; i < len; i++) {
+        if (mediumCheckboxes[i].checked) {
+            okay = true;
+           
+            break;
+            
+        }
+       
+    }
+
+    if (okay) {
+      document.getElementById("spnFirstName").innerHTML = "";
+    } else {
+      document.getElementById("spnFirstName").innerHTML = "Please select one of your Interest";
+    }
+}
+
+
    
-   const handleSubmit = e => {
-       e.preventDefault();
-       console.log("submitted")
-   }
     return (
        <>
        <Layout>
@@ -62,37 +105,105 @@ function Newsletter() {
                <Link to="https://www.instagram.com/campus24app/"><InstagramIcon className="socialmedia"/></Link>
             </div>
           </div>
-        <form onSubmit={handleSubmit}>
-          <input placeholder="First Name" className="info pb-3" value={name} onChange={(e) => setName(e.target.value)}></input>
-          <input placeholder="Email" type="email" className="info pb-3" value={email} onChange={(e) => setEmail(e.target.value)}></input>
-          <p className="interests pb-2">Select your interests</p>
-          
-          <div>
-          <input type="checkbox" id="1" value={check1} onChange={e => setCheck1(e.target.checked)}></input>
-          <Checkbox targetid="1" text="Student Relevant News" value={check1}/>
-         
-          </div>
-          <div>
-          <input type="checkbox" id="2" value={check2} onChange={e => setCheck2(e.target.checked)}></input>
-          <Checkbox targetid="2" text="Internships / Scholarships" value={check2}/>
-          
-          </div>
+        <form onSubmit={handleSubmit(sendEmail)}>
+          <input placeholder="First Name" className="info pb-3" name="name"
 
-          <div>
-          <input type="checkbox" id="3" value={check3} onChange={e => setCheck3(e.target.checked)}></input>
+       
+          ref={
+            register({
+                required: "Please enter your Name",
+                maxLength: {
+                    value: 40,
+                    message: "Please enter a name with fewer than 40 characters"
+                }
+            })
+        }
+           />
+                  <p className="error">{errors.name && errors.name.message}</p><br />
+          <input placeholder="Email" type="email" className="info pb-3" 
+          name="email"
+          ref={
+            register({
+
+                required: "Please enter your email",
+                pattern: {
+                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                    message: "invalid email address"
+                }
+            })
+        }
+          
+          />
+      
+                 <p className="error">{errors.email && errors.email.message}</p><br />
+              <p className="interests pb-2">Select your interests</p>
+          
+           <div>
+           <input type="checkbox" id="1"
+        value={check1}
+        value="Student Relevant News"
+        onChange={e => setCheck1(e.target.checked)} 
+        name="check"
+        ref={register({
+          required: true,
+          validate: validateMedium })}
+            />
+          
+         <Checkbox targetid="1" text="Student Relevant News" 
+            value={check1} 
+            />
+        
+       </div>
+         
+
+           <div>
+           <input type="checkbox" id="2" value={check2} value="Internships / Scholarships"
+            onChange={e => setCheck2(e.target.checked)}
+            name="check"
+            ref={register({
+              required: true,
+              validate: validateMedium })}
+            />
+          <Checkbox targetid="2"  text="Internships / Scholarships"   value={check2}/>
+          
+           </div>
+
+           <div>
+           <input type="checkbox" id="3" value={check3} value="Events / Competitions"
+            onChange={e => setCheck3(e.target.checked)}
+            name="check"
+            ref={register({
+              required: true,
+              validate: validateMedium })}
+            />
           <Checkbox targetid="3" text="Events / Competitions" value={check3}/>
           
-          </div>
-          <div>
-          <input type="checkbox" id="4" value={check4} onChange={e => setCheck4(e.target.checked)}></input>
-          <Checkbox targetid="4" text="Webinar" value={check4}/>
-
-          </div>
+           </div>
+           <div>
+          <input type="checkbox" id="4" value={check4} value="Webinar" 
+          onChange={e => setCheck4(e.target.checked)}
+          name="check"
+          ref={register({
+            required: false,
+            validate: validateMedium })}
+          />
+          <Checkbox targetid="4" text="Webinar" value={check4}
+            
+          />
           
          
+
+          </div> 
+          <span id="spnFirstName" className="error" ></span>
+         <br></br>   
+
+
+
+          
           <button type="submit">Join the squad</button>
-        </form>
-        </div>     
+          </form>
+        </div>      
+         
 {/* how it works --code */}
 
 <div className='container-data'>
@@ -147,3 +258,11 @@ function Newsletter() {
 }
 
 export default Newsletter
+
+
+
+
+
+
+
+ 
