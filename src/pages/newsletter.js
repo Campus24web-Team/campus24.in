@@ -38,7 +38,7 @@ function Newsletter() {
    const { register, handleSubmit, errors } = useForm();
   
   const sendEmail = (data, r) => {
-    alert(`Thank you ${data.name} , You had successfully subscribed for Campu24 Newsletter `);
+    alert(`Thank you ${data.name} , You had successfully subscribed for Campus24 Newsletter `);
     const templateId = 'template_vfjfd5r';
     const serviceID = 'service_44a3o3d';
     sendFeedback(serviceID, templateId, { from_name: data.name, user_email:data.email,user_check:data.check, reply_to: data.email })
