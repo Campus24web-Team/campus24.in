@@ -83,7 +83,7 @@ const sendFeedback = (serviceID, templateId, variables) => {
     return (
        <>
        <Layout>
-           <SectionTop title="Campus Bytes" />
+           <SectionTop title="CampusBytes" />
         <div className="pb-3 newsletter__center">
           <div className="newsletter__info">
             <h5 className="newsletter__info__heading">

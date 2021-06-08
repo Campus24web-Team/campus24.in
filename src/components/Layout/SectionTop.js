@@ -9,7 +9,7 @@ function SectionTop(props) {
 
     return (
         <>
-            <section className="sec-top" align="center">
+            <section className="sec-top" >
                 <h1>
                     {title}
                 </h1>
