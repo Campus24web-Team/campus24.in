@@ -43,7 +43,7 @@ function Contact() {
                     </div>
                 </section>
 
-                <section className="pt-3 pb-3" style={{ backgroundColor: "#151d32" }}>
+                {/* <section className="pt-3 pb-3" style={{ backgroundColor: "#151d32" }}>
                     <div className="container">
                         <div className="row part-above-footer">
                             <Link to="/careers" className="work-with-us">
@@ -62,7 +62,7 @@ function Contact() {
                             </p>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </Layout>
         </>
     )

@@ -39,8 +39,8 @@ function Newsletter() {
   
   const sendEmail = (data, r) => {
     alert(`Thank you ${data.name} , You had successfully subscribed for Campus24 Newsletter `);
-    const templateId = 'template_vfjfd5r';
-    const serviceID = 'service_44a3o3d';
+    const templateId = 'template_zr3rb6a';
+    const serviceID = 'service_n89bolb';
     sendFeedback(serviceID, templateId, { from_name: data.name, user_email:data.email,user_check:data.check, reply_to: data.email })
     r.target.reset();
 }
