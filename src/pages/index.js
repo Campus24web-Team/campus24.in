@@ -9,6 +9,7 @@ import Ill1 from '../components/static/img/ill-1.png'
 import Ill2 from '../components/static/img/ill-2.jpg'
 import Ill3 from '../components/static/img/ill-3.png'
 import Ill4 from '../components/static/img/ill-4.png'
+import RediscoveringPerks from '../components/static/img/rediscoveringPerks.png'
 import Phone from '../components/static/img/ph_blue.png'
 import PhoneScreen from '../components/static/img/All_4.png'
 import ButtonHome from '../components/static/img/Button_Home.png'
@@ -118,12 +119,12 @@ const IndexPage = () => {
                 </div>
               </div>
               <div className="col-half-ill">
-                <div className="illustrations ill" data-toggle="modal" data-target="#modal-2" style={{ backgroundImage: `url(${Ill2})` }}>
+                <div className="illustrations ill" data-toggle="modal" data-target="#modal-2" style={{ backgroundImage: `url(${RediscoveringPerks})` }}>
                   <div className="plus">
                     <div className="symbol1"></div>
                     <div className="symbol2"></div>
                   </div>
-                  <div className="text-below-ill" align="center">Alumni Boost</div>
+                  <div className="text-below-ill" align="center">Rediscovering Quirks</div>
                 </div>
               </div>
             </div>
@@ -173,16 +174,14 @@ form lifelong bonds.</p>
             <div className="modal-dialog modal-dialog-centered" role="document">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title" id="exampleModalCenterTitle">Alumni Boost</h5>
+                  <h5 className="modal-title" id="exampleModalCenterTitle">Rediscovering Quirks</h5>
                   <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                   </button>
                 </div>
                 <div className="modal-body">
                   <div className="img" style={{ backgroundImage: `url(${Ill2})` }}></div>
-                  <p style={{ paddingTop: "12px" }}>Aah! College days are the best, aren't they? Unforgettable memories, lifelong friends and campus pathways etched on your soul. It is the best time to discover yourself, 
-                  receive and live through all kinds of experiences plus finding your passion! Campus24 with its unique Camps provides you the perfect platform to gauge into the talent and passions of India’s Youth. Share 
-                  those weird quirks, combine them with others, start something new and you will see yourself completely changed and ready to take on life!</p>
+                  <p style={{ paddingTop: "12px" }}>Aah! College days are the best, aren't they? Unforgettable memories, lifelong friends and campus pathways etched on your soul. It is the best time to discover yourself, receive and live through all kinds of experiences plus finding your passion! Campus24 with its unique Camps provides you the perfect platform to gauge into the talent and passions of India’s Youth. Share those weird quirks, combine them with others, start something new and you will see yourself completely changed and ready to take on life!</p>
                 </div>
               </div>
             </div>

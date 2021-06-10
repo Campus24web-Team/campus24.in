@@ -9,6 +9,10 @@
 	margin-top: 0;
 }
 
+.sec-top {
+	text-align : center;
+}
+
 @media (max-width: 567px) {
 	.sec-top {
 		height: 240px;

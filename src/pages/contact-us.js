@@ -43,6 +43,7 @@ function Contact() {
                     </div>
                 </section>
 
+
                 {/* <section className="pt-3 pb-3" style={{ backgroundColor: "#151d32" }}>
                     <div className="container">
                         <div className="row part-above-footer">
@@ -63,6 +64,9 @@ function Contact() {
                         </div>
                     </div>
                 </section> */}
+=======
+               
+>>>>>>> 3976060bb1d0bb4b27e013077e5fac714045c33f
             </Layout>
         </>
     )
