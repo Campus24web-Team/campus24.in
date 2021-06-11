@@ -914,7 +914,7 @@ nav a h3:hover {
 	}
 }
 
-@media (max-width: 450px) {
+@media (max-width: 575px) {
 	.phone {
 		height: 135px;
 		width: 75px;

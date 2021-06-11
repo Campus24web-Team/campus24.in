@@ -23,7 +23,7 @@ import BT from '../components/static/img/BT.png'
 import DH from '../components/static/img/DH.png'
 import S from '../components/static/img/S.png'
 import ToB from '../components/static/img/ToB.png'
-
+import TELE from '../components/static/img/TELE.svg'
 import '../components/static/style/Pages/home.css'
 
 const IndexPage = () => {
@@ -82,6 +82,9 @@ const IndexPage = () => {
             <a target="_blank" rel="noreferrer"
               href="https://www.anandabazar.com/amp/state/6-ju-students-build-a-new-campus-app-to-give-students-information-1.1173840"
               className="disp-img my-auto ABPB" style={{ backgroundImage: `url(${ABPB})` }} />
+            <a target="_blank" rel="noreferrer"
+              href="https://epaper.telegraphindia.com/imageview_345665_43155995_4_undefined_10-11-2020_11_i_1_sf.html"
+              className="disp-img my-auto DH" style={{ backgroundImage: `url(${TELE})` }} />
             <a target="_blank" rel="noreferrer"
               href="http://dhunt.in/a9TmO?s=a&uu=0xad7f94d12dcbccba&ss=wsp"
               className="disp-img my-auto DH" style={{ backgroundImage: `url(${DH})` }} />
