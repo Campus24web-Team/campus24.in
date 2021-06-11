@@ -99,14 +99,14 @@ const sendFeedback = (serviceID, templateId, variables) => {
             </p>
             <div className="newsletter__icons pb-3">
                <Link to="https://www.facebook.com/campus24app"><FacebookIcon className="socialmedia"/></Link>
-               <Link to="https://www.linkedin.com/company/campus24/"><YouTubeIcon className="socialmedia"/></Link>
+               <Link to="https://www.youtube.com/channel/UCfQwRcV5TLh-ol546kQcdJw"><YouTubeIcon className="socialmedia"/></Link>
                <Link to="https://www.linkedin.com/company/campus24"><LinkedInIcon className="socialmedia"/></Link>
                <Link to="https://twitter.com/C24_app"><TwitterIcon className="socialmedia"/></Link>
                <Link to="https://www.instagram.com/campus24app/"><InstagramIcon className="socialmedia"/></Link>
             </div>
           </div>
         <form onSubmit={handleSubmit(sendEmail)}>
-          <input placeholder="First Name" className="info pb-3" name="name"
+          <input placeholder="First Name" className="info pb-2 pt-2" name="name"
 
        
           ref={
@@ -120,7 +120,7 @@ const sendFeedback = (serviceID, templateId, variables) => {
         }
            />
                   <p className="error">{errors.name && errors.name.message}</p><br />
-          <input placeholder="Email" type="email" className="info pb-3" 
+          <input placeholder="Email" type="email" className="info pb-2 pt-2" 
           name="email"
           ref={
             register({

@@ -2,9 +2,7 @@ input[type=checkbox] {
     display: none;
 }
 
-input[type=checkbox]:checked {
-    background: red;
-}
+
 .error{
   color: red;
 }
@@ -22,7 +20,8 @@ input[type=checkbox]:checked {
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
     font-size: 1.4rem;
-    padding: .5% 1.5%;
+    padding-left: 4%;
+    padding-right: 3.5%;
     color: rgb(63, 63, 63);
     letter-spacing: 1.5px;
     margin: 1em 0;
@@ -64,6 +63,7 @@ form .interests {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: -8%;
 }
 
 .newsletter__info {
@@ -339,6 +339,8 @@ color: rgb(94, 97, 96);
 @media only screen and (max-width: 900px) {
     .newsletter__center form .info{
         font-size: 1.2rem;
+        padding-right: 3%;
+        padding-left: 5%;
     }   
     .newsletter__center form button{
         font-size: 1.2rem;
@@ -352,11 +354,15 @@ color: rgb(94, 97, 96);
     .newsletter__information{
         font-size: 1.1rem;
     }
+    .newsletter__center{
+      margin-top: -15%;
+    }
 }
 
 @media only screen and (max-width: 660px) {
 
     .newsletter__center{
+        margin-top: -30%;
         flex-direction: column;
         justify-content: center;
         padding: 0 5%;
@@ -401,6 +407,11 @@ color: rgb(94, 97, 96);
     display: flex;
     justify-content: space-between;
   
+  }
+  @media only screen and (max-width: 660px) {
+   .newsletter__center{
+     margin-top: -40%;
+   }
   }
   /* mobile-view */
   
