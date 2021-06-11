@@ -43,7 +43,30 @@ function Contact() {
                     </div>
                 </section>
 
+
+                {/* <section className="pt-3 pb-3" style={{ backgroundColor: "#151d32" }}>
+                    <div className="container">
+                        <div className="row part-above-footer">
+                            <Link to="/careers" className="work-with-us">
+                                <button className="nav-app">Work with us</button>
+                            </Link>
+                            <p className="pt-2 text-above-footer" style={{
+                                color: "white",
+                                display: "inline-block",
+                                height: "100%",
+                                verticalAlign: "middle",
+                                marginBottom: "0"
+                            }}>
+                                Be a part of the revolution to change the campus
+                                experience forever. Grow and test your skills working at
+                                Campus24!
+                            </p>
+                        </div>
+                    </div>
+                </section> */}
+=======
                
+>>>>>>> 3976060bb1d0bb4b27e013077e5fac714045c33f
             </Layout>
         </>
     )
