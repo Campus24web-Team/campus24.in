@@ -64,9 +64,8 @@ function Contact() {
                         </div>
                     </div>
                 </section> */}
-=======
                
->>>>>>> 3976060bb1d0bb4b27e013077e5fac714045c33f
+
             </Layout>
         </>
     )

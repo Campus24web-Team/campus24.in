@@ -119,23 +119,23 @@ const sendFeedback = (serviceID, templateId, variables) => {
             })
         }
            />
-                  <p className="error">{errors.name && errors.name.message}</p><br />
+                  <p className="error" style={{marginLeft:"2rem"}}>{errors.name && errors.name.message}</p><br />
           <input placeholder="Email" type="email" className="info pb-2 pt-2" 
           name="email"
           ref={
             register({
 
-                required: "Please enter your email",
+                required: "Please enter your Email",
                 pattern: {
                     value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                    message: "invalid email address"
+                    message: "invalid Email Address"
                 }
             })
         }
           
           />
       
-                 <p className="error">{errors.email && errors.email.message}</p><br />
+                 <p className="error" style={{marginLeft:"2rem"}}>{errors.email && errors.email.message}</p><br />
               <p className="interests pb-2">Select your interests</p>
           
            <div>
@@ -180,21 +180,21 @@ const sendFeedback = (serviceID, templateId, variables) => {
           
            </div>
            <div>
-          <input type="checkbox" id="4" value={check4} value="Webinar" 
+          <input type="checkbox" id="4" value={check4} value="Job Openings" 
           onChange={e => setCheck4(e.target.checked)}
           name="check"
           ref={register({
             required: false,
             validate: validateMedium })}
           />
-          <Checkbox targetid="4" text="Webinar" value={check4}
+          <Checkbox targetid="4" text="Job Openings" value={check4}
             
           />
           
          
 
           </div> 
-          <span id="spnFirstName" className="error" ></span>
+          <span id="spnFirstName" className="error" style={{marginLeft:"2rem"}} ></span>
          <br></br>   
 
 
