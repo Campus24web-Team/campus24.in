@@ -91,6 +91,9 @@ function whyCampus24() {
                                     Be a part of C24 Family! - the Largest College student network of India
                                 </p>
                             </div>
+                            </div>
+                            <br />
+                            <div className="row">
                              <div className="col-2 imgs-why-us" style={{
                                 verticalAlign: "middle",
                                 display: "inline-block",
@@ -136,6 +139,7 @@ Protect your identity
                                 </p>
                             </div>
                         </div>
+                        <br />
                         <div className="row">
                             <div className="col-2 imgs-why-us" style={{
                                 verticalAlign: "middle",

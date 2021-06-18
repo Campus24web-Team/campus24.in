@@ -16,6 +16,9 @@ import ButtonHome from '../components/static/img/Button_Home.png'
 import ButtonEvents from '../components/static/img/Button_Events.png'
 import ButtonNotes from '../components/static/img/Button_Notes.png'
 import ButtonNotice from '../components/static/img/Button_Notice.png'
+import ButtonCamps from '../components/static/img/Button_Camps.png'
+import ButtonAwards from '../components/static/img/Button_Awards.png'
+import ButtonExplore from '../components/static/img/Button_Explore.png'
 import ABPB from '../components/static/img/ABPB.png'
 import ABP from '../components/static/img/ABP.png'
 import ABN from '../components/static/img/ABN.png'
@@ -76,7 +79,7 @@ const IndexPage = () => {
         </section>
 
         <section className="sec-ill my-4" align="center">
-          <h1 className="h1-small">As Featured On</h1>
+          <h1 className="h1-small" style={{textAlign : "center"}}>As Featured On</h1>
           <br />
           <div className="disp-img-holder container mx-auto" align="center">
             <a target="_blank" rel="noreferrer"
@@ -243,15 +246,15 @@ Find out those like-minded people in your campus with whom you can amplify your 
                 </label>
                 <label className="col-sm-6 btn-container">
                   <input type="radio" name="ss_btn" value="1" />
-                  <img className="btn-ph" src={ButtonNotice} alt="Button Notice" />
+                  <img className="btn-ph" src={ButtonExplore} alt="Button Explore" />
                 </label>
                 <label className="col-sm-6 btn-container">
                   <input type="radio" name="ss_btn" value="2" />
-                  <img className="btn-ph" src={ButtonEvents} alt="Button Events" />
+                  <img className="btn-ph" src={ButtonCamps} alt="Button Camps" />
                 </label>
                 <label className="col-sm-6 btn-container">
                   <input type="radio" name="ss_btn" value="3" />
-                  <img className="btn-ph" src={ButtonNotes} alt="Button Notes" />
+                  <img className="btn-ph" src={ButtonAwards} alt="Button Awards" />
                 </label>
               </div>
             </div>
