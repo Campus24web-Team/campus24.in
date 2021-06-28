@@ -102,5 +102,26 @@ padding-left: 20px;
         padding-top: 8px;
         margin-top: 8px;
     }
+
+    .text-above-footer{
+        padding:10px;
+    }
     
+}
+
+
+@media (max-width: 500px) {
+    .part-above-footer{
+        text-align: center !important;
+    }
+
+    .part-above-footer > .work-with-us{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .text-above-footer{
+        padding:10px;
+    }
+
 }
