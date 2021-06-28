@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import PlayIcon from '../components/static/img/play.png'
 import ChatIcon from '../components/static/img/chat_icon.png'
 import Ill1 from '../components/static/img/ill-1.png'
-import Ill2 from '../components/static/img/ill-2.jpg'
+import Ill2 from '../components/static/img/ill-2.png'
 import Ill3 from '../components/static/img/ill-3.png'
 import Ill4 from '../components/static/img/ill-4.png'
 import RediscoveringPerks from '../components/static/img/rediscoveringPerks.png'
@@ -51,6 +51,8 @@ const IndexPage = () => {
     }, 100)
   }, []);
 
+
+  
   return (
     <>
       <SEO title="Home" />

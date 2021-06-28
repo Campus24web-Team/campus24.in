@@ -92,7 +92,7 @@ function Header() {
                                     fontWeight: 400,
                                 }}
                             >
-                                Newsletter
+                                CampusBytes
                             </Link>
                         </div>
                     </div>
